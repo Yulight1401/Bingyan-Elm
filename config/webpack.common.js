@@ -72,11 +72,6 @@ module.exports = {
       chunksSortMode: 'dependency',
       inject: 'body',
       filename: 'index.html'
-    }),
-    new webpack.LoaderOptionsPlugin({
-      options: {
-        postcss: [autoprefixer()]
-      }
     })
   ]
 }
